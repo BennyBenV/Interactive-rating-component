@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.google.com/specimen/Overpass">
+
+
+        <title>Frontend Mentor | Interactive rating component</title>
+
+        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+        <style>
+            .attribution { font-size: 11px; text-align: center; }
+            .attribution a { color: hsl(228, 45%, 44%); }
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <img class="star" alt="star" src="images/icon-star.svg">
+            <div id="text">
+                <h1 id="how">How did we do?</h1>
+                <p id="let">Please let us know how we did with your support<br> request. All feedback is appreciated to help us<br> improve our offering!</p>
+            </div>
+            <div id="num">
+                <button class="note" value="1">1</button>
+                <button class="note" value="2">2</button>
+                <button class="note" value="3">3</button>
+                <button class="note" value="4">4</button>
+                <button class="note" value="5">5</button>
+
+            </div>
+            <button id="button"><strong>SUBMIT</strong></button>
+        </div>
+
+        <div id="main2">
+            <img class="ty" alt="thankyou" src="images/illustration-thank-you.svg">
+            <p id="selected">You selected x out of 5</p>
+            <div id="tyText">
+                <h1 id="hTy">Thank you!</h1>
+                <p id="pTy">We appreciate you taking the time to give a rating.<br>If you ever need more support, 
+                    don’t hesitate to<br> get in touch!</p>
+            </div>
+
+            <button id="button2"><strong>RATE AGAIN</strong></button>
+
+        </div>
+
+
+
+
+        <!-- Thank you state start -->
+
+        <!--You selected  Add rating here  out of 5
+
+Thank you!
+
+We appreciate you taking the time to give a rating. If you ever need more support, 
+don’t hesitate to get in touch!-->
+
+        <!-- Thank you state end -->
+
+
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
